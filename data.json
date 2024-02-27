@@ -1,0 +1,46 @@
+{
+  "January 2024": [
+    {
+      "rent_is_paid": true,
+      "rent_payment_date": "2024-01-15",
+      "rent_payment_amount": 1,
+      "englishSvitlana_is_paid": true,
+      "englishSvitlana_payment_date": "2024-01-16",
+      "englishSvitlana_payment_amount": 2,
+      "englishYaroslav_is_paid": true,
+      "englishYaroslav_payment_date": "2024-01-17",
+      "englishYaroslav_payment_amount": 3,
+      "schoolBreakfast_is_paid": true,
+      "schoolBreakfast_payment_date": "2024-01-18",
+      "schoolBreakfast_payment_amount": 4,
+      "robotyka_is_paid": true,
+      "robotyka_payment_date": "2024-01-19",
+      "robotyka_payment_amount": 5,
+      "internet_is_paid": true,
+      "internet_payment_date": "2024-01-22",
+      "internet_payment_amount": 11
+    }
+  ],
+  "February 2024": [
+    {
+      "rent_is_paid": false,
+      "rent_payment_date": "2024-01-20",
+      "rent_payment_amount": 6,
+      "englishSvitlana_is_paid": false,
+      "englishSvitlana_payment_date": "2024-01-21",
+      "englishSvitlana_payment_amount": 7,
+      "englishYaroslav_is_paid": false,
+      "englishYaroslav_payment_date": "2024-01-22",
+      "englishYaroslav_payment_amount": 8,
+      "schoolBreakfast_is_paid": false,
+      "schoolBreakfast_payment_date": "2024-01-23",
+      "schoolBreakfast_payment_amount": 9,
+      "robotyka_is_paid": false,
+      "robotyka_payment_date": "2024-01-24",
+      "robotyka_payment_amount": 10,
+      "internet_is_paid": false,
+      "internet_payment_date": "2024-01-25",
+      "internet_payment_amount": 112
+    }
+  ]
+}

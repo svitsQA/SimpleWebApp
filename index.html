@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Web App</title>
+    <link rel="stylesheet" href="src/main/resources/styles.css">
+    <link rel="icon" type="image/x-icon" href="src/main/resources/favicon.ico" />
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Tracker!</h1>
+
+    <div>
+        <label for="monthSelect">Select month:</label>
+        <select id="monthSelect">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+        </select>
+    </div>
+    <div id="fileContent">
+        <table id="dataTable">
+            <thead>
+            <tr>
+                <th>Expense item</th>
+                <th>Deadline</th>
+                <th>Is paid</th>
+                <th>Payment date</th>
+                <th>Amount</th>
+            </tr>
+            </thead>
+            <tbody id="dataBody">
+
+            <tr id="rentData">
+                <td>Rent</td>
+                <td id="rentDeadline">10th</td>
+                <td id="rentIsPaid"><input type="checkbox" checked></td>
+                <td id="rentPaymentDate"><input type="date"></td>
+                <td id="rentPaymentAmount"><input type="number"></td>
+            </tr>
+            <tr id="englishSvitlanaData">
+                <td>English (Svitlana)</td>
+                <td id="englishSvitlanaDeadline">5th</td>
+                <td id="englishSvitlanaIsPaid"><input type="checkbox" checked></td>
+                <td id="englishSvitlanaPaymentDate"><input type="date"></td>
+                <td id="englishSvitlanaPaymentAmount"><input type="number"></td>
+            </tr>
+
+            <tr id="englishYaroslavData">
+                <td>English (Yaroslav)</td>
+                <td id="englishYaroslavDeadline">18th</td>
+                <td id="englishYaroslavIsPaid"><input type="checkbox" checked></td>
+                <td id="englishYaroslavPaymentDate"><input type="date"></td>
+                <td id="englishYaroslavPaymentAmount"><input type="number"></td>
+            </tr>
+
+            <tr id="schoolBreakfastData">
+                <td>School Breakfast</td>
+                <td id="schoolBreakfastDeadline">7th</td>
+                <td id="schoolBreakfastIsPaid"><input type="checkbox" checked></td>
+                <td id="schoolBreakfastPaymentDate"><input type="date"></td>
+                <td id="schoolBreakfastPaymentAmount"><input type="number"></td>
+            </tr>
+
+            <tr id="robotykaData">
+                <td>Robotyka</td>
+                <td id="robotykaDeadline">N/A</td>
+                <td id="robotykaIsPaid"><input type="checkbox" checked></td>
+                <td id="robotykaPaymentDate"><input type="date"></td>
+                <td id="robotykaPaymentAmount"><input type="number"></td>
+            </tr>
+
+            <tr id="internetData">
+                <td>Internet</td>
+                <td id="internetDeadline">18th</td>
+                <td id="internetIsPaid"><input type="checkbox" checked></td>
+                <td id="internetPaymentDate"><input type="date"></td>
+                <td id="internetPaymentAmount"><input type="number"></td>
+            </tr>
+            </tbody>
+        </table>
+        <button id="saveButton" type="button">Save</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
