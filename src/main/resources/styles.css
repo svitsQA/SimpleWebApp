@@ -5,14 +5,79 @@ body {
 }
 
 h1 {
-    color: #00BFFF;
+    text-align: center;
+    color: #0056b3;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+label, th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #F0F8FF;
+}
+
+#saveButton {
+    padding: 8px 60px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#saveButton:hover {
+    background-color: #00BFFF;
+}
+
+#saveButton:active {
+    background-color: #004080;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 2px solid #0056b3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+    border-color: #00BFFF;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #007bff;
+    border-color: #00BFFF;
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+
+

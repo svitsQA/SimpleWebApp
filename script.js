@@ -7,11 +7,16 @@ function loadData(month, year) {
 
             // Обновление каждой строки таблицы
             updateRow('rent', selectedData.find(item => item.hasOwnProperty('rent_is_paid')));
+            updateRow('rentMedia', selectedData.find(item => item.hasOwnProperty('rentMedia_is_paid')));
             updateRow('englishSvitlana', selectedData.find(item => item.hasOwnProperty('englishSvitlana_is_paid')));
             updateRow('englishYaroslav', selectedData.find(item => item.hasOwnProperty('englishYaroslav_is_paid')));
             updateRow('schoolBreakfast', selectedData.find(item => item.hasOwnProperty('schoolBreakfast_is_paid')));
             updateRow('robotyka', selectedData.find(item => item.hasOwnProperty('robotyka_is_paid')));
+            updateRow('mathematics', selectedData.find(item => item.hasOwnProperty('mathematics_is_paid')));
             updateRow('internet', selectedData.find(item => item.hasOwnProperty('internet_is_paid')));
+            updateRow('accountant', selectedData.find(item => item.hasOwnProperty('accountant_is_paid')));
+            updateRow('zus', selectedData.find(item => item.hasOwnProperty('zus_is_paid')));
+            updateRow('tax', selectedData.find(item => item.hasOwnProperty('tax_is_paid')));
         })
         .catch(error => {
             console.error('Error loading data:', error);

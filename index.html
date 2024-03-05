@@ -9,7 +9,6 @@
 <body>
 <div class="container">
     <h1>Welcome to Tracker!</h1>
-
     <div>
         <label for="monthSelect">Select month:</label>
         <select id="monthSelect">
@@ -26,7 +25,6 @@
             <option value="November">November</option>
             <option value="December">December</option>
         </select>
-
         <label for="yearSelect">Select Year:</label>
         <select id="yearSelect">
             <option value="2024">2024</option>
@@ -56,6 +54,13 @@
                 <td id="rentPaymentDate"><input type="date"></td>
                 <td id="rentPaymentAmount"><input type="number"></td>
             </tr>
+            <tr id="rentMediaData">
+                <td>Rent (Media)</td>
+                <td id="rentMediaDeadline">10th</td>
+                <td id="rentMediaIsPaid"><input type="checkbox" checked></td>
+                <td id="rentMediaPaymentDate"><input type="date"></td>
+                <td id="rentMediaPaymentAmount"><input type="number"></td>
+            </tr>
             <tr id="englishSvitlanaData">
                 <td>English (Svitlana)</td>
                 <td id="englishSvitlanaDeadline">5th</td>
@@ -63,7 +68,6 @@
                 <td id="englishSvitlanaPaymentDate"><input type="date"></td>
                 <td id="englishSvitlanaPaymentAmount"><input type="number"></td>
             </tr>
-
             <tr id="englishYaroslavData">
                 <td>English (Yaroslav)</td>
                 <td id="englishYaroslavDeadline">18th</td>
@@ -71,7 +75,6 @@
                 <td id="englishYaroslavPaymentDate"><input type="date"></td>
                 <td id="englishYaroslavPaymentAmount"><input type="number"></td>
             </tr>
-
             <tr id="schoolBreakfastData">
                 <td>School Breakfast</td>
                 <td id="schoolBreakfastDeadline">7th</td>
@@ -79,7 +82,6 @@
                 <td id="schoolBreakfastPaymentDate"><input type="date"></td>
                 <td id="schoolBreakfastPaymentAmount"><input type="number"></td>
             </tr>
-
             <tr id="robotykaData">
                 <td>Robotyka</td>
                 <td id="robotykaDeadline">N/A</td>
@@ -87,7 +89,13 @@
                 <td id="robotykaPaymentDate"><input type="date"></td>
                 <td id="robotykaPaymentAmount"><input type="number"></td>
             </tr>
-
+            <tr id="mathematicsData">
+                <td>Mathematics</td>
+                <td id="mathematicsDeadline">N/A</td>
+                <td id="mathematicsIsPaid"><input type="checkbox" checked></td>
+                <td id="mathematicsPaymentDate"><input type="date"></td>
+                <td id="mathematicsPaymentAmount"><input type="number"></td>
+            </tr>
             <tr id="internetData">
                 <td>Internet</td>
                 <td id="internetDeadline">18th</td>
@@ -95,9 +103,32 @@
                 <td id="internetPaymentDate"><input type="date"></td>
                 <td id="internetPaymentAmount"><input type="number"></td>
             </tr>
+            <tr id="accountantData">
+                <td>Accountant</td>
+                <td id="accountantDeadline">20th</td>
+                <td id="accountantIsPaid"><input type="checkbox" checked></td>
+                <td id="accountantPaymentDate"><input type="date"></td>
+                <td id="accountantPaymentAmount"><input type="number"></td>
+            </tr>
+            <tr id="zusData">
+                <td>ZUS</td>
+                <td id="zusDeadline">20th</td>
+                <td id="zusIsPaid"><input type="checkbox" checked></td>
+                <td id="zusPaymentDate"><input type="date"></td>
+                <td id="zusPaymentAmount"><input type="number"></td>
+            </tr>
+            <tr id="taxData">
+                <td>Tax</td>
+                <td id="taxDeadline">20th</td>
+                <td id="taxIsPaid"><input type="checkbox" checked></td>
+                <td id="taxPaymentDate"><input type="date"></td>
+                <td id="taxPaymentAmount"><input type="number"></td>
+            </tr>
             </tbody>
         </table>
-        <button id="saveButton" type="button">Save</button>
+        <div class="button-container">
+            <button id="saveButton" type="button">Save</button>
+        </div>
     </div>
 </div>
 
